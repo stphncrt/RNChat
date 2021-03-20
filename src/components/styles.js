@@ -1,4 +1,13 @@
 import {Dimensions, StyleSheet} from 'react-native';
+
+export const input = StyleSheet.create({
+  TextInput: {
+    padding: 5,
+    backgroundColor: 'white',
+    margin: 5,
+    borderRadius: 5,
+  },
+});
 export const button = StyleSheet.create({
   container: {
     backgroundColor: 'purple',
@@ -50,7 +59,7 @@ export const postitem = StyleSheet.create({
   },
 });
 
-export default post_input = StyleSheet.create({
+export const post_input = StyleSheet.create({
   container: {
     width: Dimensions.get('window').width * 0.9,
     alignSelf: 'center',
@@ -68,7 +77,7 @@ export default post_input = StyleSheet.create({
   button: {},
 });
 
-export default header = StyleSheet.create({
+export const header = StyleSheet.create({
   container: {
     flexDirection: 'row',
     padding: 5,

@@ -7,7 +7,7 @@ const Input = props => {
     <View>
       <TextInput
         style={input.TextInput}
-        placeholder={props.placeholder}
+        // placeholder={props.placeholder}
         {...props.inputProps}
         onChangeText={props.onType}
       />

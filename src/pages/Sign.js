@@ -15,7 +15,13 @@ const Sign = props => {
     <View style={{flex: 1}}>
       <KeyboardAvoidingView style={{flex: 1, backgroundColor: '#cfd8dc'}}>
         <ScrollView contentContainerStyle={{flex: 1}}>
-          <Text>Sign</Text>
+          <View style={authStyle.container}>
+            <Image
+              style={authStyle.logo}
+              source={require('../assets/logo.jpeg')}
+            />
+            <Text>CLARUSCHAT</Text>
+          </View>
         </ScrollView>
       </KeyboardAvoidingView>
     </View>

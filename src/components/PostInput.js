@@ -1,6 +1,6 @@
 import React, {usestate} from 'react';
 import {View, Text, TextInput, TouchableOpacity} from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+// import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {post_input} from './styles';
 
 const PostInput = () => {
