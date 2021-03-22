@@ -3,4 +3,4 @@ export * from './Header';
 export * from './Button';
 export * from './PostInput';
 export * from './PostItem';
-export * from './TopicSelectmodal';
+export * from './TopicSelectModal';

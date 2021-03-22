@@ -1,5 +1,12 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
+export const timelinePage = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#cfd8dc',
+  },
+});
+
 export const authStyle = StyleSheet.create({
   container: {
     flex: 1,
@@ -14,12 +21,5 @@ export const authStyle = StyleSheet.create({
     color: 'purple',
     fontSize: 35,
     fontWeight: 'bold',
-  },
-});
-
-export const timelinePager = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#cfd8dc',
   },
 });

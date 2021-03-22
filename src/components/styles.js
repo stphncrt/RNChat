@@ -1,5 +1,21 @@
 import {Dimensions, StyleSheet} from 'react-native';
-
+export const header = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    padding: 5,
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderColor: '#90a4ae',
+  },
+  textContainer: {
+    flex: 1,
+  },
+  text: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#78909c',
+  },
+});
 export const input = StyleSheet.create({
   TextInput: {
     padding: 5,
@@ -77,20 +93,26 @@ export const post_input = StyleSheet.create({
   button: {},
 });
 
-export const header = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
+export const topicModal = StyleSheet.create({
+  modal: {
+    margin: 5,
     padding: 5,
+  },
+  container: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    width: Dimensions.get('window').width * 0.7,
+    height: Dimensions.get('window').height * 0.6,
+    alignSelf: 'center',
     alignItems: 'center',
-    borderBottomWidth: 1,
-    borderColor: '#90a4ae',
+    justifyContent: 'space-around',
   },
-  textContainer: {
-    flex: 1,
+  topicItemContainer: {
+    borderBottomColor: 'black',
+    margin: 5,
+    padding: 5,
   },
-  text: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    color: '#78909c',
+  topicItemText: {
+    fontSize: 18,
   },
 });
